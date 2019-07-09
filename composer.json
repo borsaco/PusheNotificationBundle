@@ -1,0 +1,25 @@
+{
+  "name": "borsaco/pushe-notification-bundle",
+  "type": "symfony-bundle",
+  "description": "PHP pushe.co API wrapper for Symfony applications",
+  "keywords": ["push", "notification", "api", "pushe", "push-notification", "symfony", "symfony2", "symfony3"],
+  "homepage": "http://borsaco.ir",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alireza Seddighi",
+      "email": "seddighi@borsaco.ir",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "symfony/framework-bundle": ">=2.2",
+    "borsaco/pushe-notification": "^1.0"
+  },
+  "autoload": {
+    "psr-4": { "Borsaco\\PusheNotificationBundle\\": "" }
+  }
+}

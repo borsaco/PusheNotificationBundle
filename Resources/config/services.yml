@@ -1,0 +1,4 @@
+services:
+    pushe_notification:
+        class: Borsaco\PusheNotificationBundle\Service\PushNotification
+        arguments: ['@service_container']
